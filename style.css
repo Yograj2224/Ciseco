@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #e3ffe6;
+    position: fixed;
+    z-index: 100;
+    
+}
+.header-main{
+    max-width: 95%;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-1{
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-1-img{
+    cursor: pointer;
+}
+.header-1-menu ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.header-1-menu ul li{
+    padding: 10px 30px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.header-1-menu ul li:hover{
+    background-color: white;
+}
+.header-2{
+    width: 28%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.header-2 ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.header-2 ul li{
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.header-2 ul li:hover{
+    transform: scale(0.8);
+}
+.li-menu-icon{
+    visibility: hidden;
+}
+.big-box-1{
+    max-width: 100%;
+    background-image: url(img/background.svg);
+    background-size: cover;
+    background-color: #e3ffe6;
+
+}
+.big-box-1-ineer{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.big-box-1-ineeer-colome1{
+    width: 49%;
+    height: 100%;
+}
+.big-box-1-ineeer-colome2{
+    width: 49%;
+    height: 100%;
+}
+.big-box-1-ineeer-colome1 h1{
+    font-size: 25px;
+    padding-top: 70px;
+}
+.big-box-1-ineeer-colome1 h2{
+    padding: 40px 0px;
+    font-size: 110px;
+    font-weight: bold;
+}
+.big-box-1-ineeer-colome1 button{
+    padding: 18px 45px;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    transition: 0.2s;
+    transform-origin: left;
+    cursor: pointer;
+}
+.big-box-1-ineeer-colome1 button:hover{
+    transform: scaleX(1.1);
+    background-color: #0f172a;
+}
+.big-box-2{
+    max-width: 100%;
+}
+.big-box-2-migel{
+    width: 95%;
+    margin: auto;
+}
+.big-box-2-hadding{
+    padding: 100px 0px;
+    font-size: 55px;
+    font-weight: bold;
+}
+.big-box-2-imgbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-2-img1{
+    width: 30%;
+    padding: 20px 20px;
+    background-color: #e3ffe6;
+    border-radius: 30px;
+}
+.box-2-img2{
+    width: 30%;
+    padding: 20px 20px;
+    background-color: #fef2f2;
+    border-radius: 30px;
+}
+.box-2-img3{
+    width: 30%;
+    padding: 20px 20px;
+    background-color: #eff6ff;
+    border-radius: 30px;
+}
+.box2-img-line-img{
+    display: flex;
+}
+.box2-img-hadding{
+    font-size: 15px;
+    font-weight: bold;
+}
+.box2-pic-line{
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.box2-pic{
+    width: 50%;
+}
+.box2-img-button button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+    transform-origin: left;
+    cursor: pointer;
+}
+.box2-img-button button:hover{
+    background-color: black;
+    color: white;
+    transform: scaleX(1.1);
+}
+.big-box3{
+    width: 100%;
+}
+.big-box3-midel{
+    width: 95%;
+    margin: auto;
+}
+.big-box3-contant-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box3-contant{
+    width: 22%;
+    position: relative;
+}
+.box3-img-like-icon{
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    cursor: pointer;
+}
+.box3-img-like-icon:hover{
+    background-color: red;
+}
+.box3-img-like-icon:hover i{
+    color: white;
+}
+.box3-img-like-icon i{
+    color: red;
+    font-size: 20px;
+}
+.contant-img img{
+    border-radius: 30px;
+}
+.contant-hadding-1{
+    padding: 10px 0px;
+    font-size: 22px;
+    color: #0f172a;
+    font-weight: bold;
+}
+.contant-hadding-2{
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #334155;
+}
+.contant-ratting{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.ratting-button button{
+    padding: 10px 25px;
+    background-color: transparent;
+    border: solid #ef4444 1px;
+    color: #ef4444;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    transform-origin: left;
+}
+.ratting-button button:hover{
+    transform: scaleX(1.1);
+}
+.ratting-star i{
+    font-size: 16px;
+    color: red;
+    cursor: pointer;
+}
+.big-box4{
+    width: 100%;
+    margin: 100px 0px;
+}
+.big-box4-midel{
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    background-image: url(img/cta.png);
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -135px;
+    border-radius: 40px;
+
+}
+.box4-midel-box{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    position: relative;
+}
+.box4-midel-box-hadding1{
+    font-size: 49px;
+    font-weight: bolder;
+    line-height: 95px;
+}
+.box4-midel-box-hadding2{
+    font-size: 28px;
+    line-height: 35px;
+    padding-top: 20px;
+}
+.box4-logo{
+    position: absolute;
+    top: -47px;
+    left: 0px;
+    cursor: pointer;
+}
+.box4-button{
+    position: absolute;
+    left: 0px;
+    bottom: -42px;
+}
+.box4-button button{
+    padding: 15px 30px;
+    background-color: black;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+    transform-origin: left;
+}
+.box4-button button:hover{
+    transform: scaleX(1.1);
+}
+.footer main{
+    width: 100%;
+}
+.footer-iner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.footer-menu-box{
+    width: 25%;
+}
+.footer-menu-hadding{
+    padding: 20px 0px;
+    font-weight: bold;
+}
+.footer-line{
+    display: inline-block;
+}
+.footer-line ul li{
+    font-size: 17px;
+    list-style: none;
+    line-height: 40px;
+    transition: 0.5s;
+    transform-origin: right;
+}
+.footer-line>ul>li>a{
+    cursor: pointer;
+    color: #374151;
+}
+.footer-line ul li:hover{
+    transform: scaleX(1.1);
+}
+.footer-end{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #374151;
+}
+

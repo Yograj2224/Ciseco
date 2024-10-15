@@ -1,0 +1,138 @@
+@media only screen and (min-width:200px) and (max-width:567px)
+{
+    header{
+        max-width: 100%;
+    }
+    .header-1-menu{
+        display: none;
+    }
+    .header-1-img img{
+        width: 110px;
+        cursor: pointer;
+    }
+    .header-2{
+        padding: 0px 0px;
+    }
+    .header-2 ul{
+        display: flex;
+        gap: 20px;
+    }
+    .li-menu-icon{
+        visibility: visible;
+    }
+    .big-box-1-ineer{
+        flex-direction: column;
+    }
+    .big-box-1-ineeer-colome1{
+        width: 100%;
+        text-align: center;
+    }
+    .big-box-1-ineeer-colome1 h1{
+        font-size: 23px;
+        padding-top: 50px;
+    }
+    .big-box-1-ineeer-colome1 h2{
+        padding: 40px 0px;
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .big-box-1-ineeer-colome1 button{
+        padding: 10px 20px;
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+    }
+
+    .big-box-1-ineeer-colome2{
+        width: 100%;
+    }
+    .big-box-2-imgbox{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .box-2-img1{
+        width: 100%;
+        text-align: center;
+    }
+    .box2-img-line-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-2-img2{
+        width: 100%;
+        text-align: center;
+    }
+    .box-2-img3{
+        width: 100%;
+        text-align: center;
+    }
+    .box2-img-line-img{
+        flex-direction: column;
+    }
+    .box2-pic-line{
+        padding: 20px 0px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .box2-pic{
+        padding: 20px 0px;
+    }
+    .big-box3{
+        max-width: 100%;
+    }
+    .big-box3-contant-box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box3-contant{
+        width: 100%;
+    }
+    .big-box4{
+        max-width: 100%;
+    }
+    .big-box4-midel{
+        height: 650px;
+        background-position-x: -376px;
+        background-position-y: -1px;
+    }
+    .box4-midel-box{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 30px;
+    }
+    .box4-midel-box-hadding1{
+        font-size: 30px;
+    }
+    .box4-midel-box-hadding2{
+        font-size: 27px;
+    }
+    .box4-logo{
+        position: absolute;
+        top: 65px;
+        left: 30px;
+    }
+    .box4-button{
+        position: absolute;
+        left: 30px;
+        bottom: 45px;
+    }
+    .footer main{
+        max-width: 100%;
+    }
+    .footer-iner{
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 30px;
+    }
+    .footer-menu-box{
+        width: 100%;
+    }
+    .footer-end{
+        font-size: 10px;
+    }
+}
